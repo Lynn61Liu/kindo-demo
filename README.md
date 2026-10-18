@@ -27,31 +27,16 @@ The administrator selects Student A1, enters a title and NZ$123.00 amount, and s
 
 ### Parent: review and pay in the mobile app
 
-Parent A sees the pending requests on Home and Requests. The payment sheet clearly identifies the student and total, and explains that the payment is simulated. After confirmation, the sheet displays a recorded-payment receipt.
+<table>
+  <tr>
+    <td><img src="docs/demo-results/mobile-home-pending.png" alt="Parent app Home screen showing two pending requests" width="180" /></td>
+    <td><img src="docs/demo-results/mobile-requests-pending.png" alt="Requests screen showing payables for Student A1 and Student A2" width="180" /></td>
+    <td><img src="docs/demo-results/mobile-payment-confirmation.png" alt="Confirmation sheet for a simulated NZ$123 payment" width="180" /></td>
+    <td><img src="docs/demo-results/mobile-payment-recorded.png" alt="Payment recorded successfully in the mobile app" width="180" /></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="docs/demo-results/mobile-home-pending.png" alt="Parent app Home screen showing two pending requests" width="320" />
-</p>
-
-*Home shows two pending requests for Parent A.*
-
-<p align="center">
-  <img src="docs/demo-results/mobile-requests-pending.png" alt="Requests screen showing separate pending payables for Student A1 and Student A2" width="320" />
-</p>
-
-*Requests are associated with individual students: Student A1’s NZ$123.00 payable and Student A2’s NZ$20.00 sports fee.*
-
-<p align="center">
-  <img src="docs/demo-results/mobile-payment-confirmation.png" alt="Payment confirmation sheet for Student A1's NZ$123.00 simulated payment" width="320" />
-</p>
-
-*Before confirmation, the payment sheet shows the due date, total, and “Simulated payment — no money will be charged” notice.*
-
-<p align="center">
-  <img src="docs/demo-results/mobile-payment-recorded.png" alt="Mobile app showing the payment recorded successfully" width="320" />
-</p>
-
-*After confirmation, the app shows “Payment recorded”, the paid amount and timestamp, and confirms that no money was charged.*
+Parent A sees two pending requests, each linked to the correct student, then reviews and confirms Student A1’s NZ$123.00 simulated payment. The app records the payment with its amount and timestamp, while Student A2’s NZ$20.00 request remains unpaid; no money is charged.
 
 ## Requirements
 
