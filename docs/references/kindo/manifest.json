@@ -1,0 +1,90 @@
+{
+  "retrieved_on": "2026-10-18",
+  "source_type": "official-support-article-embedded-images",
+  "references": [
+    {
+      "file": "family-home-new.png",
+      "article": "https://support.mykindo.co.nz/portal/en/kb/articles/getting-to-know-kindo",
+      "title": "Getting to know the new-look Kindo",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsndeda47f1926cba37d51313328d3b4fab14d90b804c4e86edadeb16a5c5130c45e9619b71fad3fcb3fc21fba366a36629?inline=true"
+    },
+    {
+      "file": "family-requests-new.png",
+      "article": "https://support.mykindo.co.nz/portal/en/kb/articles/paying-in-instalments-part-payments",
+      "title": "Paying in instalments — Requests list",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn2327258e4e67369e1475464ad3375df99f22bd3754672540b7531ed663238e3d64c2cee3848bcd27a3c054e14264574a?inline=true"
+    },
+    {
+      "file": "family-payment-sheet-new.png",
+      "article": "https://support.mykindo.co.nz/portal/en/kb/articles/paying-in-instalments-part-payments",
+      "title": "Paying in instalments — Payment sheet",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsna1c22628bccf2b58b4f4f9860d247293dbb1dcd033becadf0e0c2284203840cc7ffeab600ca46aebccc995ea72d78fc2?inline=true"
+    },
+    {
+      "file": "admin-catalogue.png",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/payable-catalogue-overview",
+      "title": "Payable Catalogue Overview — Listing",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn7b76a1d4eb6d745a6a37ad6fbb66eca7ae9d9a6db70936f2849a1bbc72ce8eb830f2481ffb24ff502d6b01c15e333d53?inline=true"
+    },
+    {
+      "file": "admin-create-full.png",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/payable-catalogue-overview",
+      "title": "Payable Catalogue Overview — Create payable",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsna0fbeeccb296a883adae1cc4d4b7562afb94a5d7c708b9a3b8d66209e1c40690d7c4c6be08121a9c264ca58769d2425e?inline=true"
+    },
+    {
+      "file": "admin-create-general.png",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/creating-a-new-payable-item-4-12-2024",
+      "title": "Creating a New Payable — General",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsncf5d30a9e301334216a5b6e2499b572dad9c2a63a49facc5aab318e672f6b25ef2fb2c09eac340de301fd6f7d12ae73b?inline=true"
+    },
+    {
+      "file": "admin-create-price.png",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/creating-a-new-payable-item-4-12-2024",
+      "title": "Creating a New Payable — Tax and Price",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn7596a2f084282a71accbf2742b9c73f87977fcd8f1934e5519715e1798dcdcaee727a3a1fdf31209e647ed7d9e2371ce?inline=true"
+    },
+    {
+      "file": "admin-columns-menu.png",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/viewing-and-downloading-payables-and-payments",
+      "title": "Viewing and Downloading payables and payments — Columns menu",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn3f502ec898aa54e74866435d58a076e73e76b7530b9804d46ab7d4823e0dc428788fc004f3174d9d9985983e512e6427?inline=true"
+    },
+    {
+      "file": "admin-dashboard.png",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/viewing-and-downloading-payables-and-payments",
+      "title": "Viewing and Downloading payables and payments — Admin home",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn8c1a0fcf07ca4662aa01eb7cb889dfa4614da0b0d438287c181c1f9ea20adc7e1f2a3e6da87becd8c27c6c59ac759b86?inline=true"
+    },
+    {
+      "file": "admin-student-picker.png",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/applying-a-payable-to-an-individual-student",
+      "title": "Applying a Payable to an individual student — Picker",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn0f94f23d5d7932b47727c68965f2ed2a0fcc7d1f4f093bfbcf2144d977b18b4591f5dc76cf763650bf76eba8407ddb3b?inline=true"
+    },
+    {
+      "file": "admin-status-header.png",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn3f502ec898aa54e74866435d58a076e7f34f1773a17a3609a7874e08a52517414d84ef27a518800c942ba19a1c423a32?inline=true",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/viewing-and-downloading-payables-and-payments",
+      "title": "admin-status-header.png"
+    },
+    {
+      "file": "admin-status-full.png",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsna1448d1944a45a169634a872fb0b4ae239cb349b7ee418eda7ff90ed2fc248408d16064e928f3cf3a116ca1df81bdf6f?inline=true",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/viewing-and-downloading-payables-and-payments",
+      "title": "admin-status-full.png"
+    },
+    {
+      "file": "admin-status-filters.png",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsncc7f5ca9c17fcd29943f0243f99712ffe852d211b5ab1e05c5714b31eea9ab75090f86ef9d48a01c0d56f563d1d40c3f?inline=true",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/viewing-and-downloading-payables-and-payments",
+      "title": "admin-status-filters.png"
+    },
+    {
+      "file": "admin-status-results.png",
+      "asset": "https://support.mykindo.co.nz/galleryDocuments/edbsn539ff8f871ddf6ca979afeb8da55a5e841f6cdf77c541f6f87aaabda3a30296ac6960f0f309fb670b0e9b2b6e6eb62a7?inline=true",
+      "article": "https://support.kindo.co.nz/portal/en/kb/articles/viewing-and-downloading-payables-and-payments",
+      "title": "admin-status-results.png"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Local browser session state and logs generated during reference research.
+.gstack/
+.local/
+.env
+.env.*
+!.env.example
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store

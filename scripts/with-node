@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+project_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+project_node_version=$(cat "$project_root/.nvmrc")
+case "$(uname -s)" in Darwin) project_os=darwin ;; Linux) project_os=linux ;; *) exit 1 ;; esac
+case "$(uname -m)" in arm64|aarch64) project_arch=arm64 ;; x86_64) project_arch=x64 ;; *) exit 1 ;; esac
+project_node_bin="$project_root/.local/node-v$project_node_version-$project_os-$project_arch/bin"
+if [ ! -x "$project_node_bin/node" ]; then
+  echo 'Run python3 scripts/setup-node.py first.' >&2
+  exit 1
+fi
+export PATH="$project_node_bin:$PATH"
+exec "$@"
