@@ -1,8 +1,9 @@
-# Kindo School Payment Request Demo
+# Kindo Demo 
 
-A local full-stack demo for a school administrator to create a payable for a student and a parent to review and simulate paying it. The web admin uses React, TypeScript, Vite, and Tailwind CSS; the parent app uses Expo / React Native; the API uses FastAPI and PostgreSQL.
-
-This is a demo, not a production payment or identity system. Parent/admin selection is represented by the `X-Demo-User-Id` request header, and payment is simulated locally. No real card, bank, or payment-provider call is made.
+A  full-stack demo for a school administrator to create a payable for a student and a parent to review and simulate paying it. 
+-The web admin uses **React, TypeScript, Vite, and Tailwind CSS**; 
+-the parent app uses **Expo / React Native**; 
+-the API uses **FastAPI and PostgreSQL**.
 
 ## User Test Results
 
