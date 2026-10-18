@@ -4,6 +4,54 @@ A local full-stack demo for a school administrator to create a payable for a stu
 
 This is a demo, not a production payment or identity system. Parent/admin selection is represented by the `X-Demo-User-Id` request header, and payment is simulated locally. No real card, bank, or payment-provider call is made.
 
+## User Test Results
+
+The screenshots below show a complete end-to-end user test on October 19, 2026. An administrator created a payable for Student A1, Parent A reviewed it in the iPhone 16 Plus simulator, confirmed a simulated full payment, and the admin status changed to **Paid**. No real payment was processed.
+
+### Admin: create and track a payable
+
+The administrator selects Student A1, enters a title and NZ$123.00 amount, and sets a due date. After submission, the payable appears in the status list as unpaid. Once the parent completes payment, the same list shows **Paid** and the payment date.
+
+![Admin creates a payable for Student A1 with a NZ$123.00 amount and due date](docs/demo-results/admin-create-payable.png)
+
+*Create Payable form: Student A1, “test by lynn”, NZ$123.00, due October 30, 2026.*
+
+![Admin list after the payable is created; the new request has no payment yet](docs/demo-results/admin-payable-created.png)
+
+*The new payable is visible with “No payment” status before the parent pays.*
+
+![Admin list after the parent completes payment](docs/demo-results/admin-paid-status.png)
+
+*After payment, the payable status is “Paid” with an October 19, 2026 payment date. Other students' requests remain independently tracked.*
+
+### Parent: review and pay in the mobile app
+
+Parent A sees the pending requests on Home and Requests. The payment sheet clearly identifies the student and total, and explains that the payment is simulated. After confirmation, the sheet displays a recorded-payment receipt.
+
+<p align="center">
+  <img src="docs/demo-results/mobile-home-pending.png" alt="Parent app Home screen showing two pending requests" width="320" />
+</p>
+
+*Home shows two pending requests for Parent A.*
+
+<p align="center">
+  <img src="docs/demo-results/mobile-requests-pending.png" alt="Requests screen showing separate pending payables for Student A1 and Student A2" width="320" />
+</p>
+
+*Requests are associated with individual students: Student A1’s NZ$123.00 payable and Student A2’s NZ$20.00 sports fee.*
+
+<p align="center">
+  <img src="docs/demo-results/mobile-payment-confirmation.png" alt="Payment confirmation sheet for Student A1's NZ$123.00 simulated payment" width="320" />
+</p>
+
+*Before confirmation, the payment sheet shows the due date, total, and “Simulated payment — no money will be charged” notice.*
+
+<p align="center">
+  <img src="docs/demo-results/mobile-payment-recorded.png" alt="Mobile app showing the payment recorded successfully" width="320" />
+</p>
+
+*After confirmation, the app shows “Payment recorded”, the paid amount and timestamp, and confirms that no money was charged.*
+
 ## Requirements
 
 - macOS or Linux; Docker Desktop / Docker Engine with Docker Compose
