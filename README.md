@@ -7,8 +7,6 @@ A  full-stack demo for a school administrator to create a payable for a student 
 
 ## User Test Results
 
-The screenshots below show a complete end-to-end user test on October 19, 2026. An administrator created a payable for Student A1, Parent A reviewed it in the iPhone 16 Plus simulator, confirmed a simulated full payment, and the admin status changed to **Paid**. No real payment was processed.
-
 ### Admin: create and track a payable
 
 The administrator selects Student A1, enters a title and NZ$123.00 amount, and sets a due date. After submission, the payable appears in the status list as unpaid. Once the parent completes payment, the same list shows **Paid** and the payment date.
