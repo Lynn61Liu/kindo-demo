@@ -9,6 +9,8 @@ A  full-stack demo for a school administrator to create a payable for a student 
 
 ### Admin: create and track a payable
 
+**Tech stack:** React, TypeScript, Vite, Tailwind CSS, FastAPI, and PostgreSQL. The admin creates student-specific payables and tracks whether each one is unpaid or paid.
+
 The administrator selects Student A1, enters a title and NZ$123.00 amount, and sets a due date. After submission, the payable appears in the status list as unpaid. Once the parent completes payment, the same list shows **Paid** and the payment date.
 
 ![Admin creates a payable for Student A1 with a NZ$123.00 amount and due date](docs/demo-results/admin-create-payable.png)
@@ -24,6 +26,8 @@ The administrator selects Student A1, enters a title and NZ$123.00 amount, and s
 *After payment, the payable status is “Paid” with an October 19, 2026 payment date. Other students' requests remain independently tracked.*
 
 ### Parent: review and pay in the mobile app
+
+**Tech stack:** Expo, React Native, TypeScript, FastAPI, and PostgreSQL. Parents review payables for each child, confirm a simulated full payment, and see the recorded payment status.
 
 <table>
   <tr>
