@@ -88,5 +88,5 @@ def test_minimal_application_is_importable_and_exposes_openapi():
         response = client.get("/openapi.json")
         assert response.status_code == 200
         assert response.json()["info"]["title"] == "School Payment Request Demo"
-        # S0 has no business endpoints yet.
-        assert client.post("/api/v1/payment-requests", json={}).status_code == 404
+        # The S1 route is present and rejects requests without a demo identity.
+        assert client.post("/api/v1/payment-requests", json={}).status_code == 401

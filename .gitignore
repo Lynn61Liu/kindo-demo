@@ -1,5 +1,6 @@
 # Local browser session state and logs generated during reference research.
 .gstack/
+.playwright-mcp/
 .local/
 .env
 .env.*

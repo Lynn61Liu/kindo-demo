@@ -3,6 +3,7 @@ from pathlib import Path
 from alembic import command
 from alembic.config import Config
 import pytest
+from fastapi.testclient import TestClient
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import Session
 
@@ -47,3 +48,24 @@ def db_session(database_engine):
         seed(session)
         session.commit()
         yield session
+
+
+@pytest.fixture
+def api_client(database_engine, db_session):
+    """Use the guarded real PostgreSQL test database and real request Sessions."""
+    from app.db import get_session
+    from app.main import app
+
+    def test_session():
+        guarded_url("school_pay_demo_test")
+        with Session(database_engine) as session:
+            try:
+                yield session
+            except Exception:
+                session.rollback()
+                raise
+
+    app.dependency_overrides[get_session] = test_session
+    with TestClient(app) as client:
+        yield client
+    app.dependency_overrides.pop(get_session, None)
