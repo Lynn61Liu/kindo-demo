@@ -54,12 +54,12 @@ Parent A sees two pending requests, each linked to the correct student, then rev
 
 I used familiar .NET backend concepts as a map, then focused my learning on FastAPI conventions.
 
-| Existing .NET concept | Python / FastAPI equivalent | How it helped |
-| --- | --- | --- |
-| ASP.NET Core controllers and routing | FastAPI routers and path operations | Mapped familiar routes, HTTP methods, and response codes |
-| C# DTOs and data annotations | Python type hints and Pydantic models | Applied request contracts and input validation |
-| Dependency injection and middleware | FastAPI `Depends` and middleware | Reused the idea of composing shared services and request rules |
-| EF Core entities and transactions | SQLAlchemy models, sessions, and transactions | Applied existing ORM and data consistency knowledge |
+| Existing .NET concept | Python / FastAPI equivalent | How it helped | Related project files |
+| --- | --- | --- | --- |
+| ASP.NET Core controllers and routing | FastAPI routers and path operations | Mapped familiar routes, HTTP methods, and response codes | [api.py](backend/app/api.py) |
+| C# DTOs and data annotations | Python type hints and Pydantic models | Applied request contracts and input validation | [schemas.py](backend/app/schemas.py) |
+| Dependency injection and middleware | FastAPI `Depends` and middleware | Reused the idea of composing shared services and request rules | [auth.py](backend/app/auth.py), [api.py](backend/app/api.py), [main.py](backend/app/main.py) |
+| EF Core entities and transactions | SQLAlchemy models, sessions, and transactions | Applied existing ORM and data consistency knowledge | [models.py](backend/app/models.py), [db.py](backend/app/db.py), [payments.py](backend/app/payments.py) |
 
 **What I learned**
 
