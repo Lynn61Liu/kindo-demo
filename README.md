@@ -50,6 +50,23 @@ Admin sees the updated status.
 
 Parent A sees two pending requests, each linked to the correct student, then reviews and confirms Student A1’s NZ$123.00 simulated payment. The app records the payment with its amount and timestamp, while Student A2’s NZ$20.00 request remains unpaid; no money is charged.
 
+## Learning Reflection: Applying .NET Knowledge to Python and FastAPI
+
+I used familiar .NET backend concepts as a map, then focused my learning on Python syntax and FastAPI conventions.
+
+| Existing .NET concept | Python / FastAPI equivalent | How it helped |
+| --- | --- | --- |
+| ASP.NET Core controllers and routing | FastAPI routers and path operations | Mapped familiar routes, HTTP methods, and response codes |
+| C# DTOs and data annotations | Python type hints and Pydantic models | Applied request contracts and input validation |
+| Dependency injection and middleware | FastAPI `Depends` and middleware | Reused the idea of composing shared services and request rules |
+| EF Core entities and transactions | SQLAlchemy models, sessions, and transactions | Applied existing ORM and data consistency knowledge |
+
+**What I learned**
+
+- I started with an end-to-end request flow and mapped known concepts before diving into new syntax.
+- My .NET experience let me focus on Python/FastAPI specifics and mobile integration instead of learning backend fundamentals from scratch.
+- Building this MVP over a weekend gave me practical experience with the new stack and showed how quickly I can ramp up.
+
 ## Requirements
 
 - macOS or Linux; Docker Desktop / Docker Engine with Docker Compose
