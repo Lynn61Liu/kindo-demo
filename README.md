@@ -52,7 +52,7 @@ Parent A sees two pending requests, each linked to the correct student, then rev
 
 ## Learning Reflection: Applying .NET Knowledge to Python and FastAPI
 
-I used familiar .NET backend concepts as a map, then focused my learning on Python syntax and FastAPI conventions.
+I used familiar .NET backend concepts as a map, then focused my learning on FastAPI conventions.
 
 | Existing .NET concept | Python / FastAPI equivalent | How it helped |
 | --- | --- | --- |
